@@ -17,7 +17,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 
 MODEL_ID_VISION = "ayyuce/medgemma-dermatology-isic2019-full-1ep"
-MODEL_ID_THINKING = "google/gemma-2-9b-it"
+MODEL_ID_THINKING = "google/gemma-2-2b-it"
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
