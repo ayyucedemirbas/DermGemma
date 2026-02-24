@@ -15,7 +15,7 @@ The system operates through three distinct AI agents:
 
 - **The Intake Nurse (Logic/Chat):** Conducts a dynamic patient interview based on symptoms.
 
-- **The Diagnostician (Logic + RAG):** Synthesizes visual findings, patient history, and retrieved clinical guidelines (text and textbook images) to formulate a comprehensive assessment.
+- **The Diagnostician (Logic + Multimodal RAG):** Synthesizes visual findings, patient history, and retrieved clinical guidelines (text and textbook images) to formulate a comprehensive assessment.
 
 **🏗️ System Architecture**
 
