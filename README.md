@@ -1,5 +1,10 @@
 # DermGemma: Agentic AI Dermatologist 🩺🤖
 
+![Python](https://img.shields.io/badge/python-3.10-blue.svg)
+![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+
 **📖 Executive Summary**
 
 DermGemma is an advanced, multi-agent artificial intelligence system designed to assist in dermatological analysis. It combines Fine-Tuned Vision-Language Models (VLMs), Large Language Models (LLMs), and Multimodal Retrieval-Augmented Generation (RAG) to simulate a real-world clinical workflow.
@@ -18,7 +23,7 @@ DermGemma leverages a state-of-the-art quantized architecture to run efficiently
 
 **1. Model Stack**
 
-**ision Model:** ayyuce/medgemma-dermatology-isic2019-full-1ep (Fine-tuned from google/medgemma-4b-it). Responsible for visual semeiotics.
+**Vision Model:** ayyuce/medgemma-dermatology-isic2019-full-1ep (Fine-tuned from google/medgemma-4b-it). Responsible for visual semeiotics.
 
 **Logic Model:** google/gemma-2-2b-it. Acts as the conversational nurse and the final diagnostician.
 
